@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://LlGC-psb.github.io/psbworkbench/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in LlGC-psb/psbworkbench project"
+        ]
+    },
+    "items": []
+}
