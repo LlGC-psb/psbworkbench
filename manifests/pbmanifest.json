@@ -1,0 +1,87 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://LlGC-psb.github.io/psbworkbench/manifests/pbmanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://28d18440-02f3-47b0-8ec8-308099ff0ea5",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://7f8e04be-a5e0-4f33-ace9-b71276e47341",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 5567,
+      "width" : 7733,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://11d5ceff-aefa-4894-b3b7-298661426c9a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/4641477/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/4641477",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 1200,
+              "maxHeight" : 1200
+            } ]
+          },
+          "height" : 5567,
+          "width" : 7733
+        },
+        "on" : "http://7f8e04be-a5e0-4f33-ace9-b71276e47341"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c6680a6b-9274-4c85-bfe1-72a3da0a9531",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 7812,
+      "width" : 10360,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b7a3dbb5-a2df-4511-a46f-1a4ab1423016",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/4641415/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://damsssl.llgc.org.uk/iiif/2.0/image/4641415",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 1200,
+              "maxHeight" : 1200
+            } ]
+          },
+          "height" : 7812,
+          "width" : 10360
+        },
+        "on" : "http://c6680a6b-9274-4c85-bfe1-72a3da0a9531"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
